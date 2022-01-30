@@ -5,7 +5,7 @@ import utilities.adt.moe.Stack;
 
 /**
  * @author Ronen Cohen
- * @implNote My implementation for utility methods to create ADTs with as little code as possible.
+ * @implNote Utility methods which help creating ADTs in order to save time during H.W. and teaching.
  */
 public class Utilities {
 	
@@ -113,6 +113,11 @@ public class Utilities {
 			destination.push(origin.pop());
 	}
     
+    /**
+     * This method creates a {@link Stack} containing {@link Integer} items
+     * @param csvValues A CSV (Comma Separated Values) of numbers.
+     * @return A stack which contains the numbers passed as arguments.
+     */
     public static Stack<Integer> createIntegerStack(String csvValues) {
     	Stack<Integer> result = new Stack<Integer>();
     	String[] values = csvValues.trim().split(",");
