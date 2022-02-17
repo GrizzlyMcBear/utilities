@@ -4,13 +4,18 @@ import utilities.adt.moe.Node;
 
 public class NodeUtilities {
 
+	// TODO: add a recursive implementation for `createNodes`.
+	
 	/**
 	 * @implNote Several notes regarding the implementation:</br>
 	 * 	<ul>
 	 * 		<li><b>Naming conventions:</b></br>
-	 * 			we use the `list` (`firstNode` would also be acceptable) as a variable literal</br>
+	 * 			We use the `list` (`firstNode` would also be acceptable) as a variable literal</br>
 	 * 			to convey that this variable represents the list even though it points to an instance of `Node`</br>
 	 * 			and could be named `node`
+	 * 		</li>
+	 * 		<li>Implementation:</br>
+	 * 			This method creates a list of nodes in an iterative way. 
 	 * 		</li>
 	 * 	</ul>
 	 * @param csvValues
