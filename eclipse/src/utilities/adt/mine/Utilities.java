@@ -120,8 +120,10 @@ public class Utilities {
      */
     public static Stack<Integer> createIntegerStack(String csvValues) {
     	Stack<Integer> result = new Stack<Integer>();
-    	String[] values = csvValues.trim().split(",");
     	
+    	if (csvValues == null || csvValues.isEmpty()) return result;
+    	
+    	String[] values = csvValues.trim().split(",");
     	for (int i = 0; i < values.length; i++)
     		result.push(new Integer(values[i]));
     	
