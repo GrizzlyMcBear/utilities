@@ -1,0 +1,6 @@
+C:\source\workspaces\utilities\VS\utils\ADT\bin\Debug\ADT.dll
+C:\source\workspaces\utilities\VS\utils\ADT\bin\Debug\ADT.pdb
+C:\source\workspaces\utilities\VS\utils\ADT\obj\Debug\ADT.csproj.AssemblyReference.cache
+C:\source\workspaces\utilities\VS\utils\ADT\obj\Debug\ADT.csproj.CoreCompileInputs.cache
+C:\source\workspaces\utilities\VS\utils\ADT\obj\Debug\ADT.dll
+C:\source\workspaces\utilities\VS\utils\ADT\obj\Debug\ADT.pdb
