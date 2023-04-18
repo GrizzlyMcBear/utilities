@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ADT {
+namespace MOE {
 	public class Stack<T> {
-		
+
 		// תכונת המחלקה
 		private Node<T> first;
 
@@ -45,8 +45,8 @@ namespace ADT {
 		// xn ואילו בסוף המחסנית נמצא האיבר
 		public override string ToString() {
 			string str = "[";
-			Node <T> pos = this.first;
-			
+			Node<T> pos = this.first;
+
 			while (pos != null) {
 				str += pos.GetValue().ToString();
 				if (pos.HasNext())

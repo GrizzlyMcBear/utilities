@@ -1,0 +1,11 @@
+C:\source\workspaces\utilities\VS\utils\Queue\bin\Debug\Queue.dll.config
+C:\source\workspaces\utilities\VS\utils\Queue\bin\Debug\Queue.dll
+C:\source\workspaces\utilities\VS\utils\Queue\bin\Debug\Queue.pdb
+C:\source\workspaces\utilities\VS\utils\Queue\bin\Debug\Node.dll
+C:\source\workspaces\utilities\VS\utils\Queue\bin\Debug\Node.pdb
+C:\source\workspaces\utilities\VS\utils\Queue\bin\Debug\Node.dll.config
+C:\source\workspaces\utilities\VS\utils\Queue\obj\Debug\Queue.csproj.AssemblyReference.cache
+C:\source\workspaces\utilities\VS\utils\Queue\obj\Debug\Queue.csproj.CoreCompileInputs.cache
+C:\source\workspaces\utilities\VS\utils\Queue\obj\Debug\Queue.csproj.CopyComplete
+C:\source\workspaces\utilities\VS\utils\Queue\obj\Debug\Queue.dll
+C:\source\workspaces\utilities\VS\utils\Queue\obj\Debug\Queue.pdb

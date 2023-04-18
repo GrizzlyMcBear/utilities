@@ -2,6 +2,7 @@ package utilities.adt.mine;
 
 import utilities.adt.moe.Node;
 import utilities.adt.moe.Stack;
+import utilities.adt.stack.StackUtilities;
 
 /**
  * @author Ronen Cohen
@@ -46,7 +47,6 @@ public class Utilities {
     	
     	return list;
     }
-    
     public static Node<Character> createCharacterNodes(String values) {
     	Node<Character> result = null;
     	
@@ -75,7 +75,34 @@ public class Utilities {
     	
 		return result;
     }
-
+    public static Node<String> createStringNodes(String csvValues) {
+    	// For the deprecated case, return an empty list
+    	if (csvValues == null || csvValues.equals(""))
+    		return null;
+    	
+    	Node<String> list = null,
+    			currNode = null,
+    			newNode = null;
+    	int index;
+    	
+    	String[] values = csvValues.trim().split(",");// Create a strings array from the argument.
+    	
+    	// Create a nodes list from the given values
+    	for (index = 0; index < values.length; index++) {
+    		
+    		newNode = new Node<String>(values[index].trim());
+    		
+    		if (list == null) {
+    			list = newNode;
+    			currNode = list;
+    		} else {
+    			currNode.setNext(newNode);
+        		currNode = currNode.getNext();
+    		}
+		}
+    	
+    	return list;
+    }
     // TODO: refactor this method to be generic
     /** Returns the length of the list.
      * @author Ronen Cohen
@@ -103,15 +130,10 @@ public class Utilities {
     		length++;
     		helpStack.push(stack.pop());
     	}
-    	flipStacks(helpStack, stack);
+    	StackUtilities.flip(helpStack, stack);
     	
     	return length;
     }
-    
-    public static <T> void flipStacks(Stack<T> origin, Stack<T> destination) {
-		while (!origin.isEmpty())
-			destination.push(origin.pop());
-	}
     
     /**
      * This method creates a {@link Stack} containing {@link Integer} items

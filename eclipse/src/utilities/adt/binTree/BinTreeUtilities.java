@@ -5,7 +5,7 @@ import utilities.adt.moe.BinTreeNode;
 public class BinTreeUtilities {
 	
 	public static void main(String[] args) {
-		BinTreeNode<Integer> currTree = createBinTree();
+		BinTreeNode<Integer> currTree = createSpecificBinTree();
 		System.out.println("Pre-Order:");
 		printPreOrder(currTree);
 		System.out.println("\n");
@@ -16,7 +16,7 @@ public class BinTreeUtilities {
 		printPostOrder(currTree);
 	}
 	
-	public static BinTreeNode<Integer> createBinTree() {
+	public static BinTreeNode<Integer> createSpecificBinTree() {
 		BinTreeNode<Integer> l6n1 = new BinTreeNode<Integer>(1);
 		BinTreeNode<Integer> l6n2 = new BinTreeNode<Integer>(2);
 		
@@ -40,7 +40,7 @@ public class BinTreeUtilities {
 		
 		return l1n1;
 	}
-	
+
 	/**
 	 * This method prints the given tree using a <b>Pre-Order</b> scan:</br>
 	 * 	<ol>
@@ -61,6 +61,10 @@ public class BinTreeUtilities {
 			printPreOrder(tree.getRight());
 	}
 	
+	/**
+	 * This method is almost the same as {@link BinTreeUtilities#printPreOrder(BinTreeNode)} only with slightly different implementation.
+	 * @param tree
+	 */
 	public static void printPreOrder2(BinTreeNode<Integer> tree) {
 		if (tree != null) {
 			System.out.print(String.format("%s, ", tree.getValue().toString()));
@@ -89,6 +93,10 @@ public class BinTreeUtilities {
 			printInOrder(tree.getRight());
 	}
 	
+	/**
+	 * This method is almost the same as {@link BinTreeUtilities#printInOrder(BinTreeNode)} only with slightly different implementation.
+	 * @param tree
+	 */
 	public static void printInOrder2(BinTreeNode<Integer> tree) {
 		if (tree != null) {
 			printInOrder(tree.getLeft());
@@ -117,6 +125,10 @@ public class BinTreeUtilities {
 			System.out.print(String.format("%s, ", tree.getValue().toString()));
 	}
 	
+	/**
+	 * This method is almost the same as {@link BinTreeUtilities#printPostOrder(BinTreeNode)} only with slightly different implementation.
+	 * @param tree
+	 */
 	public static void printPostOrder2(BinTreeNode<Integer> tree) {
 		if (tree != null) {
 			printPostOrder(tree.getLeft());

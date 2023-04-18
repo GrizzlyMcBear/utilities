@@ -1,0 +1,11 @@
+C:\source\workspaces\utilities\VS\utils\Stack\bin\Debug\Stack.pdb
+C:\source\workspaces\utilities\VS\utils\Stack\bin\Debug\Node.dll
+C:\source\workspaces\utilities\VS\utils\Stack\bin\Debug\Node.pdb
+C:\source\workspaces\utilities\VS\utils\Stack\bin\Debug\Node.dll.config
+C:\source\workspaces\utilities\VS\utils\Stack\obj\Debug\Stack.csproj.AssemblyReference.cache
+C:\source\workspaces\utilities\VS\utils\Stack\obj\Debug\Stack.csproj.CoreCompileInputs.cache
+C:\source\workspaces\utilities\VS\utils\Stack\obj\Debug\Stack.csproj.CopyComplete
+C:\source\workspaces\utilities\VS\utils\Stack\obj\Debug\Stack.pdb
+C:\source\workspaces\utilities\VS\utils\Stack\bin\Debug\Stack.dll.config
+C:\source\workspaces\utilities\VS\utils\Stack\bin\Debug\Stack.dll
+C:\source\workspaces\utilities\VS\utils\Stack\obj\Debug\Stack.dll

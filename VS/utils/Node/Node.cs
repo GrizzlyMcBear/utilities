@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ADT {
+namespace MOE {
 
 	/// <summary>
 	/// This class is the implementation for the Node, as written by the MOE (Ministry Of Education)

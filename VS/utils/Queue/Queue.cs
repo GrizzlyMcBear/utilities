@@ -1,13 +1,14 @@
-﻿using System;
+﻿using MOE;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ADT {
+namespace MOE {
 	public class Queue<T> {
 		// תכונות
-		
+
 		// מצביע לראש התור
 		private Node<T> first;
 
@@ -33,12 +34,11 @@ namespace ADT {
 
 		// פעולה המכניסה איבר לסוף התור
 		public void Insert(T x) {
-			
-			
 			if (this.last != null) { // התור לא ריק -> הוספה בסוף
 				this.last.SetNext(new Node<T>(x));
 				this.last = this.last.GetNext();
-			} else { // first הוספת חוליה ראשונה בתורת מחייב עדכון של
+			}
+			else { // first הוספת חוליה ראשונה בתורת מחייב עדכון של
 				this.last = new Node<T>(x);
 				this.first = this.last;
 			}
@@ -51,7 +51,7 @@ namespace ADT {
 			this.first = this.first.GetNext();
 			if (this.first == null)
 				this.last = null;
-			
+
 			return x;
 		}
 
@@ -69,7 +69,7 @@ namespace ADT {
 			}
 
 			str += "]";
-			
+
 			return str;
 		}
 	}

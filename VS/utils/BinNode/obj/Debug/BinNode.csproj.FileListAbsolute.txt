@@ -1,0 +1,7 @@
+C:\source\workspaces\utilities\VS\utils\BinNode\obj\Debug\BinNode.csproj.AssemblyReference.cache
+C:\source\workspaces\utilities\VS\utils\BinNode\obj\Debug\BinNode.csproj.CoreCompileInputs.cache
+C:\source\workspaces\utilities\VS\utils\BinNode\bin\Debug\BinNode.dll.config
+C:\source\workspaces\utilities\VS\utils\BinNode\bin\Debug\BinNode.dll
+C:\source\workspaces\utilities\VS\utils\BinNode\bin\Debug\BinNode.pdb
+C:\source\workspaces\utilities\VS\utils\BinNode\obj\Debug\BinNode.dll
+C:\source\workspaces\utilities\VS\utils\BinNode\obj\Debug\BinNode.pdb

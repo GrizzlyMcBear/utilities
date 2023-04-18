@@ -1,0 +1,7 @@
+C:\source\workspaces\utilities\VS\utils\Node\bin\Debug\Node.dll.config
+C:\source\workspaces\utilities\VS\utils\Node\bin\Debug\Node.dll
+C:\source\workspaces\utilities\VS\utils\Node\bin\Debug\Node.pdb
+C:\source\workspaces\utilities\VS\utils\Node\obj\Debug\Node.csproj.AssemblyReference.cache
+C:\source\workspaces\utilities\VS\utils\Node\obj\Debug\Node.csproj.CoreCompileInputs.cache
+C:\source\workspaces\utilities\VS\utils\Node\obj\Debug\Node.dll
+C:\source\workspaces\utilities\VS\utils\Node\obj\Debug\Node.pdb
