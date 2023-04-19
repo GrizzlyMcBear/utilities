@@ -30,5 +30,47 @@ namespace MOE.Node {
 			lastNode.SetNext(null);
 			return list;
 		}
+
+		/// <summary>
+		/// Returns the position of the value in the given node's list.
+		/// </summary>
+		/// <remarks>
+		/// The position (1 to N) or -1 if value doesn't exist.
+		/// </remarks>
+		/// <param name="node"></param>
+		/// <param name="value"></param>
+		/// <returns></returns>
+		public static int Find(Node<int> node, int value) {
+			int index = 0;
+			bool found = false;
+
+			while (node != null && !found) {
+				index++;
+				if (node.GetValue() == value)
+					found = true;
+
+				node = node.GetNext();
+			}
+
+			return found ? index : -1;
+		}
+
+		/// <summary>
+		/// Returns the amount of times `value` appears in the given list.
+		/// </summary>
+		/// <param name="node"></param>
+		/// <param name="value"></param>
+		/// <returns></returns>
+		public static int Count(Node<int> node, int value) {
+			int amount = 0;
+
+			while (node != null) {
+				if (node.GetValue() == value) amount++;
+
+				node = node.GetNext();
+			}
+
+			return amount;
+		}
 	}
 }
