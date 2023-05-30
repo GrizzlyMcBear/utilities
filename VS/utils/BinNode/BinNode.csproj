@@ -47,7 +47,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BinNode.cs" />
-    <Compile Include="Utilities.cs" />
+    <Compile Include="Create\FromArray.cs" />
+    <Compile Include="Create\FromScans.cs" />
+    <Compile Include="Scan\Scan.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
