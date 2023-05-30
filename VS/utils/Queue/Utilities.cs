@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -68,6 +69,15 @@ namespace MOE.Queue {
 			return queue;
 		}
 
+		public static Queue<Node<int>> Create(List<Node<int>> lists) {
+			Queue<Node<int>> listsQueue = new Queue<Node<int>>();
+
+			foreach (Node<int> node in lists) {
+				listsQueue.Insert(node);
+			}
+
+			return listsQueue;
+		}
 		public static int Count(Queue<int> queue) {
 			int count = 0;
 			Queue<int> temp = new Queue<int>();
